@@ -30,6 +30,9 @@ export const accessControl: GadgetAccessControl = {
           },
         },
       },
+      actions: {
+        design: true,
+      },
     },
     unauthenticated: {
       storageKey: "unauthenticated",
